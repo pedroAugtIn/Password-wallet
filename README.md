@@ -1,6 +1,3 @@
-
-Claro, aqui está a descrição do seu projeto em português:
-
 Password Wallet
 Visão Geral:
 
