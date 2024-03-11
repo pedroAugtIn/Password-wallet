@@ -1,0 +1,69 @@
+html{
+    background-color: black;
+  }
+  /* Estilo para o contêiner principal */
+  #box {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para o formulário de entrada */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o botão */
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b3c3d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para a lista de senhas */
+  #password-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para os itens da lista */
+  #password-list span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3b3c3d;
+    color: #fff;
+  }
+  
+  /* Estilo para o texto 'Description' na lista */
+  #password-list span:nth-child(odd) {
+    background-color: #3b3c3d;
+  }
+  
